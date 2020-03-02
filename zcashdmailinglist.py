@@ -8,7 +8,7 @@ memotext=input("Input Memo (IN QUOTES): ")
 hextext=memotext.encode("hex")
 outstring=""
 output = open("./sendletter.sh","w")
-outstring += './zcash-cli z_sendmany "zs13kryzzyrfv6fch5y60chw2d07fpwqrt05p0eg5pqy6jfxz0az33t7uh48txrf49u0glx7fxz0dw" '
+outstring += './zcash-cli z_sendmany "zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" '
 outstring += '"['
  
 for a in file:
