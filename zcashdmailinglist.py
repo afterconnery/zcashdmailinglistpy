@@ -3,7 +3,7 @@
 # mailinglist.txt .
 
  
-file = open("mailinglist1.txt")
+file = open("mailinglist.txt")
 memotext=input("Input Memo (IN QUOTES): ")
 hextext=memotext.encode("hex")
 outstring=""
