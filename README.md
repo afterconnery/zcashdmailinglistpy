@@ -12,7 +12,7 @@ Hopefully within the `zcashdmailinglist.sh` the program will have you enter your
 If it doesn not then you will then need to change the mode of the `sendletter.sh` script so you can execute it. 
 `sudo chmod u+x sendletter.sh`. 
 
-The `sendletted.sh` file will be overwritten each time you run the python script.
+The `sendletter.sh` file will be overwritten each time you run the python script.
 
 To check and make sure your memo transaction went through you type: </br>
 `zcash-cli z_getoperationresult (["operationid", "OPID NUMBER THAT WAS LISTED AFTER YOU TYPED IN YOUR MEMO"])`
