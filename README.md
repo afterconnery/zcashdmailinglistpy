@@ -1,6 +1,8 @@
 # Python Zcash Memo Mailer
 ## To be used with zcashd (full node) on **LINUX**
 
+IMPORTANT: You MUST update the "from" address in the python code to be the z-address you wish to send from. It is a placeholder by default, "zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
 All files need to be in the `/zcash/src/` folder. The python script will open a file in the same directory 
 named "mailinglist.txt" that has a z-address on every line (example provided), and ask the user to input a memo. 
 It will then assemble a z_sendmany transaction with a 1 zatoshi output and the memo for each recipient listed in mailinglist.txt . 
